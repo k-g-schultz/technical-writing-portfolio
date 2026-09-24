@@ -1,0 +1,222 @@
+html
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <title>Kyle Schultz — IT Technical Writing Portfolio</title>
+    
+      <style>
+        :root {
+          --background: #ffffff;
+          --foreground: #1f2937;
+          --muted: #5f6b7a;
+          --accent: #2563eb;
+          --card: #f4f7fb;
+          --border: #dbe3ee;
+        }
+    
+        * {
+          box-sizing: border-box;
+        }
+    
+        body {
+          margin: 0;
+          background: var(--background);
+          color: var(--foreground);
+          font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                       "Segoe UI", sans-serif;
+          line-height: 1.6;
+        }
+    
+        main {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 48px 20px 80px;
+        }
+    
+        h1, h2, h3 {
+          line-height: 1.25;
+        }
+    
+        h1 {
+          margin-bottom: 8px;
+          font-size: clamp(2rem, 6vw, 3rem);
+        }
+    
+        h2 {
+          margin-top: 48px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid var(--border);
+        }
+    
+        a {
+          color: var(--accent);
+        }
+    
+        .tagline {
+          color: var(--muted);
+          font-size: 1.2rem;
+        }
+    
+        .intro {
+          margin-top: 32px;
+          padding: 24px;
+          background: var(--card);
+          border-radius: 12px;
+        }
+    
+        .samples {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+          gap: 18px;
+          padding: 0;
+          list-style: none;
+        }
+    
+        .sample {
+          padding: 20px;
+          border: 1px solid var(--border);
+          border-radius: 10px;
+        }
+    
+        .sample h3 {
+          margin-top: 0;
+        }
+    
+        .sample p {
+          color: var(--muted);
+        }
+    
+        .button {
+          display: inline-block;
+          margin: 6px 8px 6px 0;
+          padding: 9px 14px;
+          color: white;
+          background: var(--accent);
+          border-radius: 7px;
+          text-decoration: none;
+        }
+    
+        .button:hover {
+          background: #1d4ed8;
+        }
+    
+        footer {
+          margin-top: 60px;
+          padding-top: 20px;
+          color: var(--muted);
+          border-top: 1px solid var(--border);
+        }
+      </style>
+    </head>
+    
+    <body>
+      <main>
+        <header>
+          <h1>Kyle Schultz</h1>
+          <p class="tagline">
+            IT Support Specialist and Technical Writer
+          </p>
+    
+          <a class="button" href="Kyle-Schultz-Resume.pdf">
+            View résumé
+          </a>
+    
+          <!-- Add LinkedIn later if desired. -->
+        </header>
+    
+        <section class="intro">
+          <h2>About me</h2>
+    
+          <p>
+            I turn technical processes into clear, practical documentation.
+            My background includes Tier 1 and Tier 2 support, Microsoft 365,
+            Active Directory, Intune, PowerShell automation, mobile-device
+            management, and end-user troubleshooting.
+          </p>
+    
+          <p>
+            My writing focuses on helping users solve problems and helping
+            support teams perform work safely and consistently.
+          </p>
+        </section>
+    
+        <section>
+          <h2>Writing samples</h2>
+    
+          <ul class="samples">
+            <li class="sample">
+              <h3>Troubleshooting guide</h3>
+    
+              <p>
+                A user-focused guide for diagnosing Microsoft Teams microphone
+                problems on Windows.
+              </p>
+    
+              <a href="#">Read sample</a>
+            </li>
+    
+            <li class="sample">
+              <h3>Microsoft 365 SOP</h3>
+    
+              <p>
+                A repeatable and security-conscious employee offboarding
+                procedure for IT administrators.
+              </p>
+    
+              <a href="#">Read sample</a>
+            </li>
+    
+            <li class="sample">
+              <h3>End-user setup guide</h3>
+    
+              <p>
+                Plain-language instructions for setting up Microsoft
+                Authenticator for the first time.
+              </p>
+    
+              <a href="#">Read sample</a>
+            </li>
+    
+            <li class="sample">
+              <h3>Automation case study</h3>
+    
+              <p>
+                An explanation of how PowerShell can reduce repetitive
+                helpdesk work while preserving safety and accountability.
+              </p>
+    
+              <a href="#">Read sample</a>
+            </li>
+          </ul>
+        </section>
+    
+        <section>
+          <h2>Experience</h2>
+    
+          <p>
+            More than four years of IT support experience, including
+            healthcare technology, Microsoft 365 administration, ticket
+            management, endpoint support, technical documentation, and
+            process automation.
+          </p>
+        </section>
+    
+        <section>
+          <h2>Contact</h2>
+    
+          <p>
+            Add a professional email address and LinkedIn profile here.
+            I recommend not publishing your phone number.
+          </p>
+        </section>
+    
+        <footer>
+          <p>© Kyle Schultz</p>
+        </footer>
+      </main>
+    </body>
+    </html>
+    
